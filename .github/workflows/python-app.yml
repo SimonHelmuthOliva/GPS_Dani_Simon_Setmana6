@@ -43,7 +43,7 @@ jobs:
           
       - name: Coverage
         run: |
-          coverage run -m pytest test
+          coverage run -m pytest test.py
           coverage report -m
           
       
