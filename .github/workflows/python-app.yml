@@ -35,7 +35,7 @@ jobs:
           
       - name: Lint with pylint
         run: |
-          pylint --all-files
+          pylint **/*.py
           
       - name: Test with pytest
         run: |
