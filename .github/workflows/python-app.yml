@@ -35,8 +35,7 @@ jobs:
           
       - name: Lint with pylint
         run: |
-          pylint main.py
-          pylint transform.py
+          pylint --ignore=test.py *.py
           
       - name: Test with pytest
         run: |
