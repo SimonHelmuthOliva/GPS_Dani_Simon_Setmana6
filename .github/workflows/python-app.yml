@@ -36,7 +36,6 @@ jobs:
       - name: Lint with pylint
         run: |
           pylint main.py
-          pylint test.py
           pylint transform.py
           
       - name: Test with pytest
